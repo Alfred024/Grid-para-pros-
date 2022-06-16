@@ -1,0 +1,50 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+.papá{
+    margin: 20px 1px;
+    width: 180px;
+    height: 180px;
+    background-color: aquamarine;
+}
+#compas{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background-color: lightblue;
+}
+
+.chiki{
+    text-align: left;
+    line-height: 180px;
+}
+.chiki2{
+    margin: 60px 0;
+}
+.chiki3{
+    margin: 120px 0;
+}
+.chiki4{
+    margin: 0 60px;
+}
+
+.chiki5{
+    margin: 60px 60px;
+}
+
+.chiki6{
+    margin: 120px 60px;
+}
+
+.chiki7{
+    margin: 0px 120px;
+}
+.chiki8{
+    margin: 60px 120px;
+}
+.chiki9{
+    margin: 120px 120px;
+}
+
