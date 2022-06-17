@@ -1,0 +1,28 @@
+
+
+.cabeza{
+    width: 500px;
+    height: 550px;
+    background-color: rgb(247, 228, 23);
+    border-radius: 400px;
+}
+
+.ojo{
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 100px;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 400px;
+}
+
+.ojo2{
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 400px;
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 400px;
+}
