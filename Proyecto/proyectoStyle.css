@@ -5,21 +5,4 @@
     --yellow: #D9CD23;
     --sunset: #BF6565;
 }
-/* 
-section{
-    width: 100vw;
-    height: auto;
-    display: grid;
-    place-items: center;
-    grid-gap: 10px;
-    grid-template-columns: repeat(3,auto);
-}
-.card{
-    display: grid;
-    place-content: center;
-    color: white;
-    width: 150px;
-    height: 200px;
-    background-color: #A64E87;
-    border-radius: 10px;
-} */
+
