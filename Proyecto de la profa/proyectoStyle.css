@@ -21,6 +21,7 @@ section .leftSide{
     display: grid;
     grid-template-rows: 12fr 20fr;
 }
+
 .leftSide .leftSideTop{
     display: flex;
     place-content: flex-end;
@@ -59,8 +60,11 @@ section .leftSide{
     align-items: center;
 }
 .rightSide .letras{
+    margin-top: 10%;
     font-weight: 900;
+    z-index: 5;
 }
+
 .rightSide .rec5{
     width: 34%;
     height: 320px;

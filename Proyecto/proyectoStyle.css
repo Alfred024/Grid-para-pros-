@@ -5,4 +5,16 @@
     --yellow: #D9CD23;
     --sunset: #BF6565;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(207.8deg, #61358C, #A64E87 90%);
+    margin: 0;
+    height: 100vh;
+  }
+
+  section {
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    height: 100vh;
+  }
 
