@@ -12,9 +12,45 @@ body {
     height: 100vh;
   }
 
-  section {
+  .section {
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template: repeat(10, 1fr) / repeat(10, 1fr);
     height: 100vh;
   }
+
+.Letras{
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 800;
+    align-self: center;
+    grid-area: 3/6/5/9;
+}
+.rosaChiki{
+    background-color: #F20CA2;
+    grid-area: 3/3/4/4;
+}
+.amarillo{
+    grid-area: 5/1/10/2;
+    background-color: yellow;
+}
+.azul{
+    background-color: lightblue;
+    grid-area: 7/1/9/4;
+}
+.rosa{
+    background-color: #F20CA2;
+    grid-area: 5/5/11/8;
+}
+.rosa2{
+    z-index: 1;
+    border: solid #F20CA2;
+    grid-area: 4/6/7/9;
+} 
+.rosa3{
+    border: solid #F20CA2;
+    grid-area: 3/7/9/10;
+}
+
 
