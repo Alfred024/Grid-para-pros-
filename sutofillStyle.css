@@ -1,0 +1,21 @@
+.Box1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+.Box1 div{
+    border: solid black;
+    border-radius: 5px;
+    height: 100px;
+    background-color: lightgreen;
+}
+.Box2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    justify-content: center;
+}
+.Box2 div{
+    border: solid black;
+    border-radius: 5px;
+    height: 100px;
+    background-color: lightpink;
+}
