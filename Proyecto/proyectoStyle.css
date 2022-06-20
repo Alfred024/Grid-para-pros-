@@ -20,22 +20,27 @@ body {
     height: 100vh;
   }
 
-.Letras{
+/* .Letras{
     z-index: 2;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 800;
     align-self: center;
     grid-area: 3/6/5/9;
-}
+} */
 .rosaChiki{
     background-color: #F20CA2;
     grid-area: 3/3/4/4;
+}
+.rosaChiki p{
+    transform: rotate(-90deg);
+    margin-left: 5vw;
 }
 .amarillo{
     grid-area: 5/1/10/2;
     background-color: yellow;
 }
 .azul{
+    opacity:80%;
     background-color: lightblue;
     grid-area: 7/1/9/4;
 }
@@ -49,8 +54,15 @@ body {
     grid-area: 4/6/7/9;
 } 
 .rosa3{
+    z-index: 2;
     border: solid #F20CA2;
     grid-area: 3/7/9/10;
+}
+.letras{
+    margin-left: 1vw;
+    z-index: 4;
+    font-size: 40px;
+    grid-area: 3/6/5/9;
 }
 
 
